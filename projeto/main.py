@@ -40,3 +40,4 @@ async def add_user(usuario : user): # <-- recebe os dados via JSON no corpo da r
     usuarios.append(usuario.dict()) # converte o modelo para dict e adiciona à lista
     return {"mensagem": "Usuário adicionado!", "usuario" : usuario}
 
+#MODIFICANDO
